@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d365d8c5f00663d409b6e97de5845b3a, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  displayName: Axe
+  description: Good axe for cutting
+  type: 1
+  icon: {fileID: 21300000, guid: 431d3db8420fa0b4fbc0ebe9c9b0e4a9, type: 3}
+  dropPrefab: {fileID: 276675593381463944, guid: d5ab44ed92c0de44f83c8aebb0ddd8c5, type: 3}
+  canStackItem: 0
+  maxStackAmount: 0
+  consumable: []
+  equipPrefab: {fileID: 3545675270017015257, guid: 1d3db22a9053bc2418f184bb9cf7a5d9, type: 3}

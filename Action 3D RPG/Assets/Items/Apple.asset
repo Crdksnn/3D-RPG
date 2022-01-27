@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d365d8c5f00663d409b6e97de5845b3a, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: 
+  displayName: Apple
+  description: This apple give you 50 health
+  type: 2
+  icon: {fileID: 21300000, guid: 595df4139623e93498e02108674ff1f0, type: 3}
+  dropPrefab: {fileID: 2421602265297595564, guid: 189a8acdee504494e9da6b4e7bd95d9a, type: 3}
+  canStackItem: 1
+  maxStackAmount: 30
+  consumable:
+  - type: 0
+    value: 50
+  - type: 1
+    value: 20
+  - type: 2
+    value: 300
